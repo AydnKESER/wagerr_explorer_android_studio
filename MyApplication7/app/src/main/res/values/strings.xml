@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Wagerr Explorer</string>
     <string name="nav_home">Search</string>
     <string name="nav_events">Events</string>
     <string name="nav_tracker">Tracker</string>

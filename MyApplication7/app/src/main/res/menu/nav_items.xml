@@ -7,11 +7,11 @@
         android:title="@string/nav_explorer" />
     <item
         android:id="@+id/nav_events"
-        android:icon="@android:drawable/ic_menu_myplaces"
+        android:icon="@drawable/ic_event_note_black_24dp"
         android:title="@string/nav_events" />
     <item
         android:id="@+id/nav_trackers"
-        android:icon="@android:drawable/ic_menu_view"
+        android:icon="@drawable/ic_perm_identity_black_24dp"
         android:title="@string/nav_tracker" />
     <item
         android:id="@+id/nav_settings"

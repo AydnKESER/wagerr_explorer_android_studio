@@ -31,8 +31,9 @@
         android:layout_alignParentBottom="true"
         app:menu="@menu/nav_items"
         app:background="@color/bottomnavigation"
-        android:itemBackground="@color/bottomnavigation">
-
+        android:itemBackground="@color/bottomnavigation"
+        app:itemIconTint="#000000"
+        app:itemTextColor="#000000">
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </RelativeLayout>
