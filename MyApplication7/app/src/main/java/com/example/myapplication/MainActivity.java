@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity  {
         });
 
 
-
+        SetFragment(fragmentexplorer);
     }
 
 

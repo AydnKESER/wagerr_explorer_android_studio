@@ -5,7 +5,7 @@
     <color name="colorAccent">#e60707</color>
     <color name="navigationBarColor">#000000</color>
     <color name="bottomnavigation">#000000</color>
-    <color name="ic_launcher_background">#e60707</color>
+    <color name="ic_launcher_background">#F5F5F5</color>
 
 
 </resources>
