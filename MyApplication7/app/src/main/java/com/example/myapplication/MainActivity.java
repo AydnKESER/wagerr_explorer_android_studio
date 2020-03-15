@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_main);
 
         queue= NetworkController.getInstance(this).getRequestQueue();
-//        queue.add(new JsonObjectRequest(0, wagerurl,null, new listener(),new error()));
+        queue.add(new JsonObjectRequest(0, wagerurl,null, new listener(),new error()));
 
 
 
