@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 
 import android.os.Bundle;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity  {
 
     String wagerurl = "https://explorer.wagerr.com/api/coin/";
     RequestQueue queue;
-    JSONObject resp;
+    double resp;
 
 
     @Override
@@ -113,11 +114,13 @@ public class MainActivity extends AppCompatActivity  {
         public void onResponse(JSONObject response){
             Log.i("mesaj","Gelen"+response.toString());
             try {
-                resp = response.getJSONObject("capEur");
+                resp = response.getDouble("supply");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            Log.i("mesaj","Gelen"+resp.toString());
+            Log.i("mesaj","Gelen"+resp);
+            TextView text1=findViewById(R.id.explorertext);
+            text1.setText(resp+"");
             //events=response;
 
         }
